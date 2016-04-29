@@ -7,7 +7,7 @@ var server = "http://api_sandbox:Demo@host.simagis.com/live-json-rpc/api";
 var workspace = "api_sandbox";
 
 // location and name of output zip file
-var zipFile = "../dataset_areas.zip";
+var zipFile = "dataset_areas.zip";
 
 function newMarkerAction(builder) {
     var markerAction = new com.simagis.dl.dsb.actions.MarkerImagesInTargetClassFoldersAction(builder);
