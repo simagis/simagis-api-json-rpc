@@ -15,7 +15,7 @@ Recent version of Java on your computer
 
 ## Installation
 Download and unzip compiled Java code from Releases section of this repository to your local folder
-Download configuration files: *make-dataset-from-areas.js*; *make-dataset-from-points.js* to the folder where *dataset-builder.cmd* is located
+Download configuration files: **make-dataset-from-areas.js**; **make-dataset-from-points.js** to the folder where *dataset-builder.cmd* is located
 
 ## Start
 Drug and drop configuration JavaScript file to *dataset-builder.cmd*. you will see execution log window and output zip file will be created in the target directory
