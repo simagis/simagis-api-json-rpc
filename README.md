@@ -1,4 +1,4 @@
-# Create Training Data Set Examples
+# Create Training Data Set
 This repository contains example code and configuration files to create training data sets from annotated Whlole Slide Imaging using Simagis Live Image Acess API
 
 ## Overview
