@@ -19,9 +19,10 @@ function newMarkerAction(builder) {
 	// tile dimensions in pixels
 	markerAction.targetImageDim = 128;
 	
+	// define maginification via pixel size 
+	// this way you can work seamlessly with slides from different scanners
 	markerAction.targetPixelSize = 0.5; // pixel size in microns
-	// markerAction.targetCompression = 2;
-   
+
 	// alternatively you can define compression directly
 	//markerAction.targetCompression = 2;	
 		
