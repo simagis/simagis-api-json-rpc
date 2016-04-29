@@ -19,7 +19,7 @@ function newMarkerAction(builder) {
 	//markerAction.targetClassMap.put("label1", "label2");
 	
     // tile dimensions in pixels
-	markerAction.targetImageDim = 128;
+	markerAction.targetImageDim = 64;
 	
        	// define maginification via pixel size 
 	// this way you can work seamlessly with slides from different scanners
