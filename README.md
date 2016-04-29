@@ -2,9 +2,9 @@
 This repository contains example code and configuration files to create training data sets from annotated Whlole Slide Imaging using Simagis Live Image Acess API
 
 ## Overview
-Using These examples you can quickly create training data sets for machine learning algorithms from annotated whole slide images, from any slide format (vendor) 
+Using these examples, you can quickly create training data sets for machine learning algorithms from annotated whole slide images, from any slide format (vendor) 
 
-In these examples a Java utility program is using configuration file in JavaScript to access Simagis Live server via Image Access API and exatract image tiles from annotated areas on whole slide images. To learn more about annotating slides for training see quick reference at http://bit.ly/sit-ml-quick-reference
+In these examples, a Java utility program is using configuration file in JavaScript to access Simagis Live server via Image Access API and exatract image tiles from annotated areas on whole slide images. To learn more about annotating slides for training see quick reference at http://bit.ly/sit-ml-quick-reference
 
 The result is a zip file that contains folder for each label with image tiles for that label.  This is common data structure for many machine learning software applications. Alternatively, you can generate results where image data is stored is csv file, one line per image, this is another popular input format for deep learning convolutional networks. 
 
